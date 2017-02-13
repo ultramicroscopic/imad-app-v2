@@ -3,7 +3,9 @@ body {
     background-color: lightyellow;
     margin-top: 75px;
 }
-
+p {
+    margin: 2cm 4cm 3cm 4cm;
+}
 .center {
     text-align: center;
 }

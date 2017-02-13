@@ -4,8 +4,9 @@ body {
     margin-top: 75px;
 }
 p {
-    margin: 0cm 4cm 0cm 4cm;
+    margin: 1cm 4cm 0cm 4cm;
     font-size: 150%
+    line-height: 150%;
 }
 .center {
     text-align: center;

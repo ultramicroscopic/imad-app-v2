@@ -10,6 +10,7 @@ p {
 }
 a:visited{
     color: red;
+    font-size: 150%;
 }
 .center {
     text-align: center;

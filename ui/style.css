@@ -9,8 +9,8 @@ p {
 .center {
     text-align: center;
 }
-.left {
-    text-align: left;
+.justify {
+    text-align: justify;
 }
 .text-big {
     font-size: 300%;

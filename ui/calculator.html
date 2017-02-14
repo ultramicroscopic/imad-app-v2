@@ -6,16 +6,43 @@
 <body>
 <p>The First Number: <input type="text" id="firstNum" ></p><br><hr>
 <p>The Second Number: <input type="text" id="secNum" >
-<button type="button" onclick="myFunction()">+</button></p>
+<button type="button" onclick="myFunction1()">+</button>
+<button type="button" onclick="myFunction2()">-</button>
+<button type="button" onclick="myFunction3()">*</button>
+<button type="button" onclick="myFunction4()">/</button></p>
 <p id="demo"></p>
 
 <script>
-function myFunction() {
+function myFunction1() {
     var x = document.getElementById("firstNum");
     var y = document.getElementById("secNum");
     var first = x.value;
     var sec = y.value;
     var third= +first + +sec;
+    document.getElementById("demo").innerHTML = "The answer is: " + third;
+    }
+function myFunction2() {
+    var x = document.getElementById("firstNum");
+    var y = document.getElementById("secNum");
+    var first = x.value;
+    var sec = y.value;
+    var third= +first - +sec;
+    document.getElementById("demo").innerHTML = "The answer is: " + third;
+    }
+function myFunction3() {
+    var x = document.getElementById("firstNum");
+    var y = document.getElementById("secNum");
+    var first = x.value;
+    var sec = y.value;
+    var third= +first * +sec;
+    document.getElementById("demo").innerHTML = "The answer is: " + third;
+    }
+function myFunction4() {
+    var x = document.getElementById("firstNum");
+    var y = document.getElementById("secNum");
+    var first = x.value;
+    var sec = y.value;
+    var third= +first / +sec;
     document.getElementById("demo").innerHTML = "The answer is: " + third;
     }
 </script>

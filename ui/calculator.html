@@ -12,7 +12,7 @@ function myFunction() {
     var y = document.getElementById("secNum");
     var first = x.value;
     var sec = y.value;
-    var third= first+sec;
+    var third= +first + +sec;
     document.getElementById("demo").innerHTML = "The answer is: " + third;
     }
 </script>

@@ -11,6 +11,9 @@ app.get('/', function (req, res) {
 app.get('/page-one.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'page-one.html'));
 });
+app.get('/calculator.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'calculator.html'));
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
